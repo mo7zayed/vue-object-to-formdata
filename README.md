@@ -5,6 +5,16 @@ A vue helper which converts object to FormData instance.
 
 In your script entry point:
 
+```bash
+npm i vue-object-to-formdata --save
+```
+
+or
+
+```bash
+yarn add vue-object-to-formdata
+```
+
 ```javascript
 import Vue from 'vue';
 import ObjectToFD from 'vue-object-to-formdata';
