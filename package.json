@@ -1,0 +1,31 @@
+{
+  "name": "vue-object-to-formdata",
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/mo7zayed/vue-object-to-formdata"
+  },
+  "description": "A vue helper which converts object to FormData instance",
+  "main": "./dist/index.js",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "npx bili --bundle-node-modules"
+  },
+  "keywords": [
+    "vue",
+    "object",
+    "formdata",
+    "object to formdata"
+  ],
+  "author": "Mohamed Zayed",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "bili": "^5.0.5",
+    "rollup-plugin-vue": "^5.1.9",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
